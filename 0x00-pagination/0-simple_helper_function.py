@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 index_range return a tuple of size two containing a start and an end index
 """
