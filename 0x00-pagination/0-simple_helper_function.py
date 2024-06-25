@@ -6,6 +6,9 @@ from typing import Tuple
 
 
 def index_range(page: int, page_size: int):
+    """
+    doc doc method
+    """
     start = (page - 1) * page_size
     end = start + page_size
     return (start, end)
