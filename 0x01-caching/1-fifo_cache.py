@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """
+DOC DOC Object
 """
 from base_caching import BaseCaching
 from collections import OrderedDict
