@@ -31,6 +31,8 @@ class LRUCache(BaseCaching):
                 print('DISCARD:', lru_key)
         self.cache_data[key] = item
         self.cache_data.move_to_end(key, last=False)
+        else:
+            self.cache_data[key] = item
 
     def get(self, key):
         """
